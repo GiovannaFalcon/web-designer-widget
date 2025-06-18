@@ -1,0 +1,146 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.greenwidget {
+    position: relative;
+    background-color: #97DE54;
+    border-radius: 56px;
+    height: 274px;
+    width: 500px;
+}
+
+.widget {
+    position: absolute;
+    background: linear-gradient(to right, #030303, #262626);
+    border-radius: 56px 56px 54px 54px;
+    box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.5);
+    height: 234px;
+    width: 500px;
+}
+
+.text1 {
+    color: #808080;
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    top: 16px;
+    left: 40px;
+}
+
+.alarm {
+    color: #808080;
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    top: 16px;
+    right: 40px;
+}
+
+.alarmicon {
+    width: 20px;
+    position: absolute;
+    top: 28px;
+    right: 98px;
+}
+
+.profile {
+    width: 60px;
+    border-radius: 90px;
+    position: relative;
+    top: 76px;
+    left: 44px;
+}
+
+.name {
+    color: #D9D8DA;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    top: 6px;
+    left: 118px;
+}
+
+.point {
+    width: 6px;
+    position: relative;
+    bottom: 7px;
+    left: 120px;
+}
+
+.work {
+    color: #4E4E4E;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    left: 130px;
+    bottom: 34px;
+}
+
+.hireme {
+    text-align: center;
+    font-weight: 600px;
+    color: #E8E8E8;
+    background-color: #454644;
+    border: #454644;
+    border-radius: 16px;
+    padding: 16px 70px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    left: 40px;
+    bottom: 14px;
+}
+
+.add {
+    width: 12px;
+    position: absolute;
+    left: 94px;
+    bottom: 44px;
+}
+
+.copy {
+    text-align: center;
+    color: #E8E8E8;
+    font-weight: 600px;
+    background-color: #323432;
+    border: #454644;
+    border-radius: 16px;
+    padding: 16px 60px 16px 60px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    left: 68px;
+    bottom: 14px;
+}
+
+.duplicate {
+    width: 12px;
+    position: absolute;
+    right: 182px;
+    bottom: 44px;
+}
+
+.creativity {
+    color: #385814;
+    font-size: 12px;
+    font-weight: bolder;
+    position: absolute;
+    padding-top: 14px;
+    left: 164px;
+} 
+
+.ray {
+    position: absolute;
+    padding-top: 16px;
+    width: 20px;
+    top: 227px;
+    left: 142px;
+}
